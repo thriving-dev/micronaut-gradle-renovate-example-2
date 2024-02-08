@@ -67,13 +67,13 @@ tasks.check { dependsOn(intTest) }
 
 graalvmNative.toolchainDetection.set(false)
 micronaut {
-    runtime("netty")
     /*
     reference to the version catalog instead of using a static version string -> `version("4.2.1")`
     or via gradle.properties as used by default 'Micronaut Launch'.
     The version defined here is ignored by renovate but actually used to determine all micronaut dependencies
     */
     version(libs.micronaut.platform.get().version)
+    runtime("netty")
     testRuntime("junit5")
     processing {
         incremental(true)
