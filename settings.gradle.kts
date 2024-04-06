@@ -4,8 +4,8 @@ dependencyResolutionManagement {
     versionCatalogs {
         create("libs") {
             plugin("johnrengelman-shadow", "com.github.johnrengelman.shadow").version("8.1.1")
-            plugin("micronaut-application", "io.micronaut.application").version("4.3.5")
-            plugin("micronaut-aot", "io.micronaut.aot").version("4.3.5")
+            plugin("micronaut-application", "io.micronaut.application").version("4.3.6")
+            plugin("micronaut-aot", "io.micronaut.aot").version("4.3.6")
 
             library("micronaut-platform", "io.micronaut.platform:micronaut-platform:4.3.7")
             library("junit", "org.junit.jupiter:junit-jupiter:5.10.2")
