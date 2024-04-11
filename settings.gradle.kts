@@ -7,7 +7,7 @@ dependencyResolutionManagement {
             plugin("micronaut-application", "io.micronaut.application").version("4.3.6")
             plugin("micronaut-aot", "io.micronaut.aot").version("4.3.6")
 
-            library("micronaut-platform", "io.micronaut.platform:micronaut-platform:4.3.7")
+            library("micronaut-platform", "io.micronaut.platform:micronaut-platform:4.3.8")
             library("junit", "org.junit.jupiter:junit-jupiter:5.10.2")
             library("assertj", "org.assertj:assertj-core:3.25.3")
             library("testcontainers", "org.testcontainers:testcontainers:1.19.7")
